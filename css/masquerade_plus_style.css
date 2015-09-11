@@ -1,22 +1,22 @@
 
 #block-masquerade-masquerade {
-    background-color: #235622;
-    border-top-right-radius: 10px;
-    bottom: 0;
-    box-shadow: 0 0 3px;
-    font-size: 10px;
-    left: 0;
+    background-color: #235622 !important;
+    border-top-right-radius: 10px !important;
+    bottom: 0 !important;
+    box-shadow: 0 0  !important;
+    font-size: 10px !important;
+    left: 0 !important;
     margin: 0 !important;
     padding: 0 !important;
-    position: fixed;
+    position: fixed !important;
 }
 #block-masquerade-masquerade .form-item .description, #block-masquerade-masquerade h2 {
-    font-size: 0;
+    font-size: 0 !important;
 }
 #block-masquerade-masquerade .form-item .description #quick_switch_links a {
-    color: white;
+    color: white !important;
     font-size: 10px !important;
 }
 #block-masquerade-masquerade .form-item .description #quick_switch_links a:hover {
-    background-color: #3a8739;
+    background-color: #3a8739 !important;
 }

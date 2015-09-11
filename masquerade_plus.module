@@ -1,8 +1,7 @@
-<?php 
+<?php
 
 function masquerade_plus_init(){
     drupal_add_css(drupal_get_path('module','masquerade_plus').'/css/masquerade_plus_style.css');
-    drupal_add_js(drupal_get_path('module','masquerade_plus').'/js/masquerade_plus_jfunctions.js');
 }
 function masquerade_plus_menu(){
 	$items = array();
