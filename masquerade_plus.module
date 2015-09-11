@@ -1,0 +1,29 @@
+<?php 
+
+function masquerade_plus_init(){
+    drupal_add_css(drupal_get_path('module','masquerade_plus').'/css/masquerade_plus_style.css');
+    drupal_add_js(drupal_get_path('module','masquerade_plus').'/js/masquerade_plus_jfunctions.js');
+}
+function masquerade_plus_menu(){
+	$items = array();
+	$items['custom/masquerade_plus/index'] = array(
+		'title'            => t('Custom module'),
+		'page callback'    => 'masquerade_plus_index_action',
+		'access arguments' => array('access content'),
+		'type'             => MENU_LOCAL_TASK,
+	);
+
+	return $items;
+}
+
+function masquerade_plus_theme(){
+	 return array(
+		'masquerade_plus_index' => array(
+			'template' => 'masquerade_plus_index'
+		)
+	);
+}
+function masquerade_plus_index_action(){
+	 return theme('masquerade_plus_index', array());
+}
+

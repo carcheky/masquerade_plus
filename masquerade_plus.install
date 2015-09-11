@@ -1,0 +1,41 @@
+<?php
+
+function masquerade_plus_uninstall(){
+    drupal_uninstall_schema('masquerade_plus');
+  
+}
+  
+function masquerade_plus_enable() {
+    if (db_table_exists('masquerade_plus') == FALSE) {
+		drupal_install_schema('masquerade_plus');
+    }
+
+
+}  
+
+function masquerade_plus_disable() {
+    if (db_table_exists('masquerade_plus') == TRUE) {
+		drupal_uninstall_schema('masquerade_plus');
+		db_query('DROP TABLE {masquerade_plus}');
+    }
+   
+}
+
+function masquerade_plus_schema() {
+    $schema = array();
+    $schema['masquerade_plus'] = array(
+        'description' => 'masquerade_plus',
+        'fields' => array(
+            'id' => array(
+            'description' => 'id',
+            'type' => 'serial',
+            'unsigned' => true,
+            'not null' => true
+            ),
+        ),
+        'primary key' => array('id')
+    );
+  
+    
+    return $schema;
+}
