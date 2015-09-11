@@ -1,1 +1,22 @@
- 
+
+#block-masquerade-masquerade {
+    background-color: #235622;
+    border-top-right-radius: 10px;
+    bottom: 0;
+    box-shadow: 0 0 3px;
+    font-size: 10px;
+    left: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: fixed;
+}
+#block-masquerade-masquerade .form-item .description, #block-masquerade-masquerade h2 {
+    font-size: 0;
+}
+#block-masquerade-masquerade .form-item .description #quick_switch_links a {
+    color: white;
+    font-size: 10px !important;
+}
+#block-masquerade-masquerade .form-item .description #quick_switch_links a:hover {
+    background-color: #3a8739;
+}
