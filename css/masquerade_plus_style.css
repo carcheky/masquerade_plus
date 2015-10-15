@@ -1,4 +1,3 @@
-
 #block-masquerade-masquerade {
     background-color: #235622 !important;
     border-top-right-radius: 10px !important;
@@ -9,6 +8,8 @@
     margin: 0 !important;
     padding: 0 !important;
     position: fixed !important;
+    max-width:300px !important;
+    width:auto !important;
 }
 #block-masquerade-masquerade .form-item .description, #block-masquerade-masquerade h2 {
     font-size: 0 !important;
@@ -25,10 +26,11 @@
     padding: 0 !important;
 }
 #block-masquerade-masquerade ul li {
-    display: inline;
     margin: 3px !important;
 }
 #block-masquerade-masquerade * {
     margin: 0 !important;
     padding: 0 !important;
+    text-align:left !important;
+    color:white !important;
 }
