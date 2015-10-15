@@ -1,15 +1,14 @@
 #block-masquerade-masquerade {
     background-color: #235622 !important;
-    border-top-right-radius: 10px !important;
     bottom: 0 !important;
     box-shadow: 0 0 !important;
     font-size: 10px !important;
     left: 0 !important;
     margin: 0 !important;
-    padding: 0 !important;
+    max-width: 300px !important;
+    padding: 0 0 20px !important;
     position: fixed !important;
-    max-width:300px !important;
-    width:auto !important;
+    width: auto !important;
 }
 #block-masquerade-masquerade .form-item .description, #block-masquerade-masquerade h2 {
     font-size: 0 !important;
@@ -31,6 +30,18 @@
 #block-masquerade-masquerade * {
     margin: 0 !important;
     padding: 0 !important;
-    text-align:left !important;
-    color:white !important;
+    text-align: left !important;
+}
+#block-masquerade-masquerade .contextual-links-wrapper{
+    display: none !important;
+}
+#block-masquerade-masquerade #edit-submit{
+    background-color: yellow !important;
+    color: #000 !important;
+    padding: 3px !important;
+    border: none !important;
+    width: 10px  !important;
+}
+#block-masquerade-masquerade #edit-masquerade-user-field-autocomplete, #block-masquerade-masquerade #edit-masquerade-user-field{
+    color: black !important;
 }
