@@ -10,7 +10,11 @@
    position: fixed !important;
    width: 100px !important;
    z-index: 9999999999 !important;
-   border: 1px solid red;
+   border: 3px solid red;
+   border-left: none;
+   border-radius: 3px;
+   border-top-left-radius: 0;
+   border-bottom-left-radius: 0;
  }
  #block-masquerade-masquerade .container-inline {
    display: none;
