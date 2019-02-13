@@ -11,13 +11,13 @@
    width: 100px !important;
    z-index: 9999999999 !important;
    border: 3px solid red;
-   border-left: none;
-   border-radius: 3px;
-   border-top-left-radius: 0;
-   border-bottom-left-radius: 0;
+   border-left: none !important;;
+   border-radius: 3px !important;;
+   border-top-left-radius: 0 !important;;
+   border-bottom-left-radius: 0 !important;;
  }
  #block-masquerade-masquerade .container-inline {
-   display: none;
+   display: none !important;;
  }
  #block-masquerade-masquerade .form-item .description, #block-masquerade-masquerade h2 {
    font-size: 0 !important;
@@ -39,6 +39,7 @@
  #block-masquerade-masquerade ul li {
    margin: 3px !important;
  }
+ #block-masquerade-masquerade h2 {display: none !important;}
  #block-masquerade-masquerade * {
    margin: 0 !important;
    padding: 0 !important;
