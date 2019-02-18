@@ -3,3 +3,8 @@ description = Module masquerade_plus makes masquerade block floats at bottom
 core = 7.x
 package = cckdev
 dependencies[] = masquerade
+
+; Information added by Drupal.org packaging script on 2018-02-28
+version = "7.x-1.9"
+core = "7.x"
+project = "masquerade_plus"
